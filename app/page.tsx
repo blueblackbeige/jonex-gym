@@ -46,7 +46,7 @@ export default function Home() {
         <div className="hero-image"></div><div className="hero-shade"></div>
         <div className="wrap hero-content">
           <p className="kicker">Stronger · Healthier · Happier</p>
-          <h1>Fitness<br />for a <span>better you.</span></h1>
+          <h1>Fitness<br />for a<br /><span>better you.</span></h1>
           <p className="hero-copy">Modern equipment. Focused training. A gym floor built to make every session count.</p>
           <div className="hero-actions"><a className="lime-button" href="#contact">Get started</a><a className="text-link" href="#programs">Explore the floor <b>↗</b></a></div>
           <div className="quick-points"><span><b>01</b> Serious equipment</span><span><b>02</b> Cardio access</span><span><b>03</b> Flexible plans</span><span><b>04</b> Personal training</span></div>
