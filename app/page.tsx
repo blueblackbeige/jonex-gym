@@ -43,15 +43,17 @@ export default function Home() {
       </header>
 
       <section className="hero" id="home">
-        <div className="hero-image"></div><div className="hero-shade"></div>
+        <div className="hero-image"></div><div className="hero-shade"></div><div className="hero-grid" aria-hidden="true"></div>
         <div className="wrap hero-content">
-          <p className="kicker">Stronger · Healthier · Happier</p>
-          <h1>Fitness<br />for a<br /><span>better you.</span></h1>
-          <p className="hero-copy">Modern equipment. Focused training. A gym floor built to make every session count.</p>
-          <div className="hero-actions"><a className="lime-button" href="#contact">Get started</a><a className="text-link" href="#programs">Explore the floor <b>↗</b></a></div>
-          <div className="quick-points"><span><b>01</b> Serious equipment</span><span><b>02</b> Cardio access</span><span><b>03</b> Flexible plans</span><span><b>04</b> Personal training</span></div>
+          <p className="kicker">Jonex Gym · the training floor</p>
+          <h1>Your best<br />hour <span>starts</span><br />here.</h1>
+          <p className="hero-copy">Strength. Cardio. Real equipment. Make the hour you train the strongest part of your day.</p>
+          <div className="hero-actions"><a className="lime-button" href="#contact">Start your first session</a><a className="text-link" href="#programs">Explore the floor <b>↗</b></a></div>
+          <div className="quick-points"><span><b>01</b> Strength floor</span><span><b>02</b> Cardio access</span><span><b>03</b> Personal training</span></div>
         </div>
-        <aside className="journey-card"><p>Your Jonex<br />journey</p><ul><li>Build strength</li><li>Improve stamina</li><li>Train with purpose</li></ul></aside>
+        <aside className="journey-card"><span className="journey-label">Annual cardio</span><p>Build the<br /><em>routine.</em></p><b>₹6,000 <small>/ year</small></b><a href="#plans">See all plans ↗</a></aside>
+        <div className="hero-film"><span className="film-play" aria-hidden="true">▶</span><div><b>JONEX / FLOOR FILM</b><span>Strength, cardio &amp; conditioning</span></div><small>00:38</small></div>
+        <div className="film-progress" aria-hidden="true"><span></span></div>
       </section>
 
       <section className="programs section" id="programs"><div className="wrap"><div className="section-head"><div><p className="kicker lime">Our programs</p><h2>Train your <span>way.</span></h2></div><p>From strength to cardio, we have the equipment and floor space to keep you moving.</p></div><div className="zone-grid">{zones.map(([title, description, image], index) => <article className="zone" key={title}><img src={image} alt={`${title} at Jonex Gym`} /><div className="zone-overlay"><span>0{index + 1}</span><h3>{title}</h3><p>{description}</p></div></article>)}</div></div></section>
