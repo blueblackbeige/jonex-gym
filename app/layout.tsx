@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Jonex Gym | Built for the Work",
-  description: "Jonex Gym memberships, cardio access, personal training, and youth offers.",
+  title: "Jonex Gym | Earn Your Next Rep",
+  description: "A dedicated training floor for strength, cardio, conditioning, and personal coaching.",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
