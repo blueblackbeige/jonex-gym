@@ -9,8 +9,8 @@ export type Membership = {
 };
 
 export const navigation = [
-  { label: "The club", href: "#club" },
-  { label: "Training", href: "#training" },
+  { label: "Why Jonex", href: "#club" },
+  { label: "The floor", href: "#training" },
   { label: "Memberships", href: "#memberships" },
   { label: "Hours", href: "#hours" },
 ];
@@ -19,50 +19,50 @@ export const trainingSpaces = [
   {
     number: "01",
     title: "Strength",
-    description: "Free weights, resistance stations, and the space to stay focused.",
+    description: "The weights, racks, and machines to take your training seriously.",
     image: "/assets/strength.jpg",
-    accent: "Power lives here",
+    accent: "Lift a little more",
   },
   {
     number: "02",
     title: "Cardio",
-    description: "Build capacity with equipment that keeps pace with your goals.",
+    description: "A bright, energetic zone for the sessions that build your engine.",
     image: "/assets/cardio.jpg",
-    accent: "Keep moving",
+    accent: "Keep moving forward",
   },
   {
     number: "03",
     title: "Conditioning",
-    description: "A dedicated treadmill lane for the miles that shape your mindset.",
+    description: "Your lane for steady steps, fast bursts, and every pace in between.",
     image: "/assets/treadmills.jpg",
-    accent: "Find your rhythm",
+    accent: "Move at your pace",
   },
 ];
 
 export const memberships: Membership[] = [
   {
-    name: "Starter",
+    name: "Find your rhythm",
     price: "₹2,000",
     period: "3 months",
     eyebrow: "Cardio included",
-    description: "A consistent start with the full training floor at your disposal.",
+    description: "Enough time to settle in, try the floor, and make training part of your week.",
     features: ["Gym-floor access", "Cardio floor access", "Strength & conditioning"],
   },
   {
-    name: "Committed",
+    name: "Build the habit",
     price: "₹4,200",
     period: "6 months",
     eyebrow: "Most popular",
-    description: "The sweet spot for turning a plan into a real habit.",
+    description: "Our most-loved plan for members who are ready to stay consistent.",
     features: ["Gym-floor access", "Cardio floor access", "Strength & conditioning", "Progress check-in"],
     highlighted: true,
   },
   {
-    name: "All year",
+    name: "Go all in",
     price: "₹6,000",
     period: "12 months",
     eyebrow: "Best value",
-    description: "Twelve months of room to build your strongest routine yet.",
+    description: "The best value for a full year of showing up for yourself.",
     features: ["Gym-floor access", "Cardio floor access", "Strength & conditioning", "Best annual rate"],
   },
 ];

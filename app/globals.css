@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  color-scheme: dark;
+  color-scheme: light;
 }
 
 * {
@@ -14,14 +14,14 @@ html {
 
 body {
   margin: 0;
-  background: #07100c;
-  color: #f6faf4;
+  background: #fffdf5;
+  color: #151515;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 ::selection {
-  background: #c6ff64;
-  color: #07100c;
+  background: #f4c400;
+  color: #151515;
 }
 
 input,
