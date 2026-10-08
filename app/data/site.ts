@@ -12,7 +12,6 @@ export const navigation = [
   { label: "Why Jonex", href: "#club" },
   { label: "The floor", href: "#training" },
   { label: "Memberships", href: "#memberships" },
-  { label: "Hours", href: "#hours" },
 ];
 
 export const trainingSpaces = [

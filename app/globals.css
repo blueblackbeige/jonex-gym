@@ -29,3 +29,8 @@ select,
 button {
   font: inherit;
 }
+
+.font-strong {
+  font-family: Impact, "Arial Narrow", Arial, sans-serif;
+  font-weight: 400;
+}
